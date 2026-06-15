@@ -2,7 +2,7 @@
 
 🔗 **Links**
 
-- 🌐 [View Project](https://seu-projeto.vercel.app)
+- 🌐 [View Project](https://extension-manager-eight.vercel.app/)
 - 📂 [Repository](https://github.com/luciane003/extension-manager/)
 
 ### 🇺🇸 English
