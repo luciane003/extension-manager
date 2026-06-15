@@ -1,5 +1,6 @@
 {
   "name": "extension-manager-user-interface",
+  "homepage": "https://luciane003.github.io/extension-manager",
   "private": true,
   "version": "0.0.0",
   "type": "module",
