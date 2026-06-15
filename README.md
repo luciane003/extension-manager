@@ -3,7 +3,7 @@
 🔗 **Links**
 
 - 🌐 [View Project](https://seu-projeto.vercel.app)
-- 📂 [Repository](https://github.com/seu-usuario/seu-repositorio)
+- 📂 [Repository](https://github.com/luciane003/https://github.com/luciane003/extension-manager/)
 
 ### 🇺🇸 English
 
