@@ -1,0 +1,250 @@
+body,
+.page-header,
+.theme-button,
+.extensions-header,
+.extension-controls,
+.empty-state,
+.extensions-list,
+.extension-content,
+.extension-actions {
+    display: flex;
+}
+
+body, 
+.theme-button,
+.empty-state{
+    align-items: center;
+}
+
+body,
+.theme-button,
+.empty-state,
+.extensions-list {
+    justify-content: center;
+}
+
+body {
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.theme-light-body{
+    background: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+}
+
+.theme-dark-body {
+    background: linear-gradient(180deg, #040918 0%, #091540 100%);
+}
+
+.text-theme-light {
+    color: hsl(226, 25%, 17%);
+}
+.text-theme-dark {
+    color: hsl(0, 0%, 93%);
+}
+
+#root {
+    width: 90vw;
+    padding-top: 2rem;
+}
+
+.page-header {
+    justify-content: space-between;
+    border-radius: 0.70rem;
+    padding: 0.50rem 1rem 0.25rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.theme-button {
+    padding: 1.2rem;
+    border-radius: 0.50rem;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+}
+
+.focus-style:focus {
+    border: 2px solid hsl(3, 71%, 56%);
+    outline: none;
+}
+
+.theme-button,
+.control-button,
+.remove-extension-button,
+.slider {
+    cursor: pointer;
+}
+
+.dark-theme-icon,
+.clear-theme-icon {
+    width: 1.40rem; 
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.theme-light-primary,
+.attribution {
+    background-color:hsl(200, 60%, 99%);
+}
+
+.theme-dark-primary {
+    background-color:hsl(225, 23%, 24%);
+}
+
+.theme-light-secondary {
+    background-color: hsl(0, 0%, 87%); 
+}
+
+.theme-dark-secondary {
+    background-color: hsl(230, 11%, 32%);
+}
+
+.extensions-header {
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.extensions-title {
+    font-weight: 700;
+}
+
+.extension-controls,
+.extensions-list,
+.extension-content {
+    gap: 1rem;
+}
+
+.control-button {
+    border-radius: 1rem;
+    padding: 0.50rem;
+    font-weight: 500;
+}
+
+.light-theme-button:hover {
+    background-color: hsl(0, 0%, 93%);
+}
+
+.dark-theme-button:hover {
+    background-color: hsl(226, 11%, 37%);
+}
+
+.filter-button-active {
+    background-color: hsl(3, 77%, 44%);
+}
+
+.empty-state {
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 20rem;
+    height: 8rem;
+    border-radius: 2rem;
+}
+
+.title-status-empty {
+    padding: 1px;
+}
+
+.extensions-list {
+    flex-wrap: wrap;
+    margin-bottom: 0.50rem;
+}
+
+.extension-card {
+    width: 26rem;
+    height: 12rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.extension-content {
+    padding-bottom: 2rem;
+    height: 8rem;
+}  
+
+.extension-name {
+    font-weight: 600;
+    padding-bottom: 0.50rem;
+}
+
+.extension-description {
+    font-weight: 300;
+}
+
+.extension-actions {
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.remove-extension-button {
+    border-radius: 0.85rem;
+    padding: 0.30rem;
+    width: 5rem;
+}
+
+.remove-extension-button:hover,
+.switch.active .slider {
+    background-color: hsl(3, 86%, 64%);
+}
+
+.border-light {
+    border: 0.50px solid hsl(226, 11%, 37%);
+}
+
+.border-dark {
+    border: 1px solid hsl(0, 0%, 78%);
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 3rem;
+    height: 1.5rem;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    inset: 0;
+    border-radius: 34px;
+    transition: 0.3s;
+}
+
+.switch.inactive .slider {
+    background-color: hsl(226, 11%, 37%);
+}
+
+.slider::before {
+    background-color: hsl(0, 0%, 93%);
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 34px;
+    transition: 0.3s;
+}
+
+input:checked + .slider::before {
+    transform: translateX(24px);
+}
+
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; 
+    margin-top: auto;
+    width: 100%;
+}
+   
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

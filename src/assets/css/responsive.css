@@ -1,0 +1,46 @@
+@media(max-width:1280px) {
+    .extensions-list {
+        gap: 2rem;
+    }
+
+    .extension-card {
+        width: 22rem;
+        height: 13rem;
+    }
+
+    .extension-content {
+        height: 9rem;
+    }  
+}
+
+@media(max-width: 768px) {
+    .extension-card {
+        width: 20rem;
+        height: 14rem;
+    }
+
+     .extension-content {
+        height: 10rem;
+    }  
+}
+
+@media(max-width: 431px) {
+    .extensions-header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+     .control-button {
+        padding: 0.80rem;
+        border-radius: 2rem;
+    }
+}    
+
+@media(max-width: 376px) {
+    .attribution {
+        font-size: 0.6rem;
+    }
+}
