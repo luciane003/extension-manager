@@ -1,9 +1,9 @@
 import data from './data/data.json'
 
-import extensionsLogoLight from './assets/images/logo-thema-light.svg'
-import extensionsLogoDark from './assets/images/logo-thema-dark.svg'
-import darkThemeIcon from './assets/images/icon-moon.svg'
-import clearThemeIcon from './assets/images/icon-sun.svg'
+import extensionsLogoLight from '../public/images/logo-thema-light.svg'
+import extensionsLogoDark from '../public/images/logo-thema-dark.svg'
+import darkThemeIcon from '../public/images/icon-moon.svg'
+import clearThemeIcon from '../public/images/icon-sun.svg'
 import { useEffect, useState } from 'react'
 
 function App() {
