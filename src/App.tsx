@@ -87,7 +87,7 @@ function App() {
                     <section key={item.id} className={`extension-card ${activo ? 'theme-dark-primary' : 'theme-light-primary'} ${activo ? 'border-light': 'border-dark'}`}>
                         <div className="extension-content">
                             <div className="extension-image-container">
-                                <img className="extension-icon" src={item.logo} alt="Extension icon" />
+                                <img className="extension-icon" src={`${import.meta.env.BASE_URL}images/${item.logo}`}alt="Extension icon" />
                             </div>
 
                             <div className="extension-details">
